@@ -10,7 +10,11 @@ const express = require("express"),
   dbName = "recipe_db";
 
 MongoDB.connect(
-  dbURL,
+  dbURL,  
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  },
   (error, client) => {
     if (error) throw error;
     let db = client.db(dbName);
