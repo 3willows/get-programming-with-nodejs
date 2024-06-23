@@ -1,3 +1,8 @@
+// Jasper: add "  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  }" as MongoDB middleware to MongoDB.connect to run unit_3 lesson_13 and likely the materials from that point onwards
+
 ***
 
 NOTICE: As of *11/20/20*, The following packages have been upgraded due to dependency vulnerabilities:
